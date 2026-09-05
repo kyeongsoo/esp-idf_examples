@@ -1,0 +1,5 @@
+CompileFlags:
+  # CompilationDatabase: build_s3
+  CompilationDatabase: build_c3
+  # CompilationDatabase: build_c6
+  Remove: [-f*, -m*]
