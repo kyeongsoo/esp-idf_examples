@@ -55,7 +55,7 @@ void app_main(void)
     // Wi-Fi STA MAC address
     uint8_t base_mac[6];
     ESP_ERROR_CHECK(esp_read_mac(base_mac, ESP_MAC_WIFI_STA));
-    printf("Wi-Fi STA MAC Address: " MACSTR, MAC2STR(base_mac));
+    printf("Wi-Fi STA MAC Address: " MACSTR "\n", MAC2STR(base_mac));
 
     fflush(stdout);
     // for (int i = 10; i >= 0; i--) {
